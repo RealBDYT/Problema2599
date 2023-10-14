@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    long long a;
+
+    cin>>a;
+
+    if (a >= 0 and a <= 9) {
+        cout<<a * a * a * a * a * a * a * a * a * a * a * a * a * a * a * a<<endl;
+    }
+
+    return 0;
+}
